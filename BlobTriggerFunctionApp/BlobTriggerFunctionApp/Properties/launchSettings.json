@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "TestFunction": {
+    "BlobTriggerFunctionApp": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7129",
+      "commandLineArgs": "--port 7240",
       "launchBrowser": false
     }
   }
