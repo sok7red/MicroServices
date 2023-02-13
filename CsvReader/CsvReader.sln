@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CsvReader", "CsvReader\CsvReader.vcxproj", "{5654D8FD-A420-4649-80E9-5EED3E17D43A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5654D8FD-A420-4649-80E9-5EED3E17D43A}.Debug|x64.ActiveCfg = Debug|x64
+		{5654D8FD-A420-4649-80E9-5EED3E17D43A}.Debug|x64.Build.0 = Debug|x64
+		{5654D8FD-A420-4649-80E9-5EED3E17D43A}.Debug|x86.ActiveCfg = Debug|Win32
+		{5654D8FD-A420-4649-80E9-5EED3E17D43A}.Debug|x86.Build.0 = Debug|Win32
+		{5654D8FD-A420-4649-80E9-5EED3E17D43A}.Release|x64.ActiveCfg = Release|x64
+		{5654D8FD-A420-4649-80E9-5EED3E17D43A}.Release|x64.Build.0 = Release|x64
+		{5654D8FD-A420-4649-80E9-5EED3E17D43A}.Release|x86.ActiveCfg = Release|Win32
+		{5654D8FD-A420-4649-80E9-5EED3E17D43A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F68B012-285F-4AC6-9BAF-50B6348AD9D5}
+	EndGlobalSection
+EndGlobal

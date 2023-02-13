@@ -1,0 +1,59 @@
+{
+  "RequestTemplates": {
+    "ReportParamType": {
+      "Pfe": {
+        "_comment": "Missing Deal level Risk Measures"
+      },
+      "Capital": {
+        "RiskMeasures": [
+          "EEPE_IMM_1Y",
+          "M_IMM",
+          "EPE",
+          "ENE"
+        ],
+        "riskMeasureConfig": [
+          {
+            "label": "CollateralisedPFE",
+            "percentiles": [ 2.5, 25.0, 50.0, 75.0, 97.5 ],
+            "riskMeasure": "CMTM"
+          },
+          {
+            "label": "UncollateralisedPFE",
+            "percentiles": [ 2.5, 25.0, 50.0, 75.0, 97.5 ],
+            "riskMeasure": "PE"
+          }
+        ],
+        "_comment": "Capital has no Deal level Risk Measures"
+      },
+      "UncollateralisedEAD": {
+        "RiskMeasures": [
+          "EEPE_IMM_1Y",
+          "M_IMM",
+          "EPE",
+          "ENE"
+        ],
+        "_comment": "UncollateralisedEAD has no Deal level Risk Measures"
+      },
+      "Calibration": {
+        "RiskMeasureConfig": [
+          {
+            "label": "AvgMtm",
+            "calculateMean": true,
+            "riskMeasure": "SIM_MTM"
+          },
+          {
+            "label": "UnadjustedAvgMtm",
+            "calculateMean": true,
+            "riskMeasure": "SIM_MTM_ADJUSTED"
+          },
+          {
+            "label": "UncollateralisedPFE",
+            "percentiles": [ 95.0 ],
+            "riskMeasure": "SIM_MTM",
+            "maxWithZero": true
+          }
+        ]
+      }
+    }
+  }
+}

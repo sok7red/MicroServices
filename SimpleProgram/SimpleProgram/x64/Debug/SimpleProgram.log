@@ -1,0 +1,3 @@
+﻿  SimpleProgram.cpp
+C:\Users\sokost\source\repos\Workers\MicroServices\SimpleProgram\SimpleProgram\SimpleProgram.cpp(93,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  SimpleProgram.vcxproj -> C:\Users\sokost\source\repos\Workers\MicroServices\SimpleProgram\x64\Debug\SimpleProgram.exe
